@@ -1,0 +1,4 @@
+# basic example
+CONFIG_USB_ETH=y
+CONFIG_USB_ETH_RNDIS=y
+CONFIG_USB_USBNET=y

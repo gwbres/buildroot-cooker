@@ -1,0 +1,16 @@
+ {
+    "pre_configure_hooks": [{
+        "hello-world": {
+            "script": "echo \"hello world\" >> /tmp/.hello_world"
+            "output": "/tmp/.hello_world"
+        }
+    }],
+    "boards": [{
+        "image-rpi": {
+            "board": "example-rpi"
+        },
+        "image-bbb": {
+            "board": "example-bbb"
+        }
+    }]
+}
